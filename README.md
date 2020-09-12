@@ -11,6 +11,7 @@ Requirements: ruby 2.6.2, rails 5.2.2, Postgres
 1. Create a local postgres user: `CREATE USER psycle_admin;`
 1. `ALTER USER <user> WITH SUPERUSER;`
 1. `GRANT ALL PRIVILEGES ON DATABASE <db> TO <user>;`
+1. `GRANT USER <user> WITH LOGIN;`
 1. Make sure the database creds match those in `.env.development`
 1. Run `bundle install`
 1. Run `rails g spree:install --user_class=Spree::User` (say "no" to all overwrites)
