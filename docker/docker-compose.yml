@@ -1,0 +1,41 @@
+version: '3.9'
+services:
+  dna-admin:
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile
+      labels:
+        com.instinct.description: "Instincts DNA Admin"
+    command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
+    volumes:
+      - .:/dna
+    depends_on:
+      - dna-db
+    ports:
+      - "3000:3000"
+    env_file:
+      - ../.env.development
+
+#    image:
+#      # Ruby 2.6.3
+#      - name: rails-base-image-ruby:2.6.3
+#        ruby_version: 2.6.3
+#        additional_pkgs: []
+#        volumes:
+#          - .:/dna
+#        ports:
+#          - "3000:3000"
+#        depends_on:
+#          - db
+  dna-db:
+    build:
+      context: ../sql
+      dockerfile: ./Dockerfile
+      labels:
+        com.instinct.description: "Instincts DNA Database"
+    ports:
+      - "5432:5432"
+  #  redis:
+  #    build: ./redis
+  #    ports:
+  #      - "6379:6379"

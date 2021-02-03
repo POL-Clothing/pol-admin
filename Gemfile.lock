@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/spree-contrib/spree-product-assembly.git
+  revision: 7e22b5f20d721278af74d35820a97d47e6fcdb41
+  specs:
+    spree_product_assembly (4.1.0)
+      deface (~> 1.0)
+      spree_backend (>= 3.1.0, < 5.0)
+      spree_extension
+
+GIT
   remote: https://github.com/spree-contrib/spree_digital.git
   revision: 72d05307d183d17214aa1173e026caff3e48abb2
   specs:
@@ -17,6 +26,13 @@ GIT
     spree_static_content (3.4.0)
       spree_core (>= 3.1.0, < 5.0)
       spree_extension
+
+GIT
+  remote: https://github.com/vinsol-spree-contrib/spree_product_subscriptions.git
+  revision: 541669b5db8f6555f1c0b7a12294869c4c2d3a1b
+  specs:
+    spree_product_subscriptions (3.2.0)
+      spree_core (>= 3.2.0, < 4.0)
 
 GIT
   remote: https://github.com/vinsol-spree-contrib/spree_promo_users_codes.git
@@ -512,6 +528,8 @@ DEPENDENCIES
   spree_auth_devise (~> 3.5)
   spree_digital!
   spree_gateway (~> 3.4)
+  spree_product_assembly!
+  spree_product_subscriptions!
   spree_promo_users_codes!
   spree_static_content!
   spring

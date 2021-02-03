@@ -9,10 +9,12 @@
  *= require_tree .
  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 
 /* admin messages css  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 .admin-msgs-gridcontainer {
     display: grid;
@@ -31,6 +33,7 @@
     justify-content: space-around;
     /* align-items: center;  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 }
 
@@ -59,6 +62,7 @@
     background: pink;
     /* margin-top: 10%;  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 }
 
@@ -68,6 +72,7 @@
 
 /* convolist  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 .admin-convolist-tbody {
     display: block;
@@ -76,6 +81,7 @@
     background: linear-gradient(#FAFAFA, white)
     /* border: 1px solid black;  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 }
 
@@ -83,6 +89,7 @@
     overflow-y: scroll;
 }  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 
 #th-avatar {
@@ -113,9 +120,11 @@
 
 /* thread-list  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 /* threads  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 .admin-thread-header {
     display: flex;
@@ -144,11 +153,13 @@
     height: 60vh;
     /* margin: 8% 0 0 0;  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 }
 
 /* messages  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 
 p.message {
@@ -233,6 +244,7 @@ p.message span text {
     border: 1px solid grey;
 }  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 
 .admin-thread-userinput {
@@ -258,5 +270,6 @@ p.message span text {
     /* display: grid;
     grid-template-columns: .8fr .2fr  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 }
