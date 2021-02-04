@@ -32,9 +32,9 @@
     flex-direction: column;
     justify-content: space-around;
     /* align-items: center;  *= require spree/backend/spree_promo_users_codes
- *= require spree/backend/spree_digital
- *= require spree/backend/spree_product_subscriptions
-*/
+     *= require spree/backend/spree_digital
+     *= require spree/backend/spree_product_subscriptions
+    */
 }
 
 .admin-msgs-searchinput {
@@ -61,9 +61,9 @@
     border-radius: 50%;
     background: pink;
     /* margin-top: 10%;  *= require spree/backend/spree_promo_users_codes
- *= require spree/backend/spree_digital
- *= require spree/backend/spree_product_subscriptions
-*/
+     *= require spree/backend/spree_digital
+     *= require spree/backend/spree_product_subscriptions
+    */
 }
 
 .admin-msgs-conversation-label {
@@ -80,9 +80,9 @@
     max-height: 60vh;
     background: linear-gradient(#FAFAFA, white)
     /* border: 1px solid black;  *= require spree/backend/spree_promo_users_codes
- *= require spree/backend/spree_digital
- *= require spree/backend/spree_product_subscriptions
-*/
+     *= require spree/backend/spree_digital
+     *= require spree/backend/spree_product_subscriptions
+    */
 }
 
 /* .admin-convolist-wrapper {
@@ -90,6 +90,7 @@
 }  *= require spree/backend/spree_promo_users_codes
  *= require spree/backend/spree_digital
  *= require spree/backend/spree_product_subscriptions
+}
 */
 
 #th-avatar {
@@ -152,9 +153,9 @@
     overflow-x: hidden;
     height: 60vh;
     /* margin: 8% 0 0 0;  *= require spree/backend/spree_promo_users_codes
- *= require spree/backend/spree_digital
- *= require spree/backend/spree_product_subscriptions
-*/
+     *= require spree/backend/spree_digital
+     *= require spree/backend/spree_product_subscriptions
+    */
 }
 
 /* messages  *= require spree/backend/spree_promo_users_codes
@@ -269,7 +270,7 @@ p.message span text {
     outline-width: 0;
     /* display: grid;
     grid-template-columns: .8fr .2fr  *= require spree/backend/spree_promo_users_codes
- *= require spree/backend/spree_digital
- *= require spree/backend/spree_product_subscriptions
-*/
+     *= require spree/backend/spree_digital
+     *= require spree/backend/spree_product_subscriptions
+    */
 }

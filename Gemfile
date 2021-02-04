@@ -49,7 +49,6 @@ gem 'spree_promo_users_codes', github: 'vinsol-spree-contrib/spree_promo_users_c
 gem 'spree_digital', github: 'spree-contrib/spree_digital'
 gem 'spree_product_assembly', github: 'spree-contrib/spree-product-assembly'
 gem 'spree_product_subscriptions', github: 'vinsol-spree-contrib/spree_product_subscriptions'
-
 gem 'rest-client'
 
 group :development, :test do

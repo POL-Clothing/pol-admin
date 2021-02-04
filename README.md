@@ -1,5 +1,14 @@
 # Material Instinct LLC - DNA Boilerplate for Admin UI
 
+Running the app locally (the easy way):
+
+1. Navigate to the root of the project
+1. Run `docker-compose -f docker/docker-compose.yml up`
+1. Wanna see it build first? I would.. 
+1. Run `docker-compose -f ./docker/docker-compose.yml build --no-cache`
+1. Paranoid?
+1. Run `docker-compose -f ./docker/docker-compose.yml up --build --exit-code-from dna-db --remove-orphans`
+
 Running the app locally (w/o Docker):
 
 Requirements: ruby 2.6.2, rails 5.2.2, Postgres
