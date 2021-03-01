@@ -1,5 +1,14 @@
 # Material Instinct LLC - DNA Boilerplate for Admin UI
 
+Running the app locally (the easy way):
+
+1. Navigate to the root of the project
+1. Run `docker-compose -f docker/docker-compose.yml up`
+1. Wanna see it build first? I would.. 
+1. Run `docker-compose -f ./docker/docker-compose.yml build --no-cache`
+1. Paranoid?
+1. Run `docker-compose -f ./docker/docker-compose.yml up --build --exit-code-from dna-db --remove-orphans`
+
 Running the app locally (w/o Docker):
 
 Requirements: ruby 2.6.2, rails 5.2.2, Postgres
@@ -14,8 +23,8 @@ Requirements: ruby 2.6.2, rails 5.2.2, Postgres
 1. `GRANT USER <user> WITH LOGIN;`
 1. Make sure the database creds match those in `.env.development`
 1. Run `bundle install`
-1. Run `rails g spree:install --user_class=Spree::User` (say "no" to all overwrites)
-1. Run `rails g spree:auth:install` (say "no" to all overwrites)
+1. Run `rails g spree:install --user_class=Spree::User` (say "NO" to all overwrites)
+1. Run `rails g spree:auth:install` (say "NO" to all overwrites)
 1. Run `rails g spree_gateway:install`
 1. Run `rake db:schema:load`
 1. Run `rake db:seed`

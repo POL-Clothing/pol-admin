@@ -7,10 +7,14 @@
 
  *= require_self
  *= require_tree .
- *= require spree/backend/spree_themes
+ *= require spree/backend/spree_promo_users_codes
+ *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 
-/* admin messages css  *= require spree/backend/spree_themes
+/* admin messages css  *= require spree/backend/spree_promo_users_codes
+ *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 .admin-msgs-gridcontainer {
     display: grid;
@@ -27,8 +31,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* align-items: center;  *= require spree/backend/spree_themes
-*/
+    /* align-items: center;  *= require spree/backend/spree_promo_users_codes
+     *= require spree/backend/spree_digital
+     *= require spree/backend/spree_product_subscriptions
+    */
 }
 
 .admin-msgs-searchinput {
@@ -54,28 +60,37 @@
     height: 50px;
     border-radius: 50%;
     background: pink;
-    /* margin-top: 10%;  *= require spree/backend/spree_themes
-*/
+    /* margin-top: 10%;  *= require spree/backend/spree_promo_users_codes
+     *= require spree/backend/spree_digital
+     *= require spree/backend/spree_product_subscriptions
+    */
 }
 
 .admin-msgs-conversation-label {
     margin-left: 10%;
 }
 
-/* convolist  *= require spree/backend/spree_themes
+/* convolist  *= require spree/backend/spree_promo_users_codes
+ *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 .admin-convolist-tbody {
     display: block;
     overflow-y: scroll;
     max-height: 60vh;
     background: linear-gradient(#FAFAFA, white)
-    /* border: 1px solid black;  *= require spree/backend/spree_themes
-*/
+    /* border: 1px solid black;  *= require spree/backend/spree_promo_users_codes
+     *= require spree/backend/spree_digital
+     *= require spree/backend/spree_product_subscriptions
+    */
 }
 
 /* .admin-convolist-wrapper {
     overflow-y: scroll;
-}  *= require spree/backend/spree_themes
+}  *= require spree/backend/spree_promo_users_codes
+ *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
+}
 */
 
 #th-avatar {
@@ -104,9 +119,13 @@
     width: 100%;
 }
 
-/* thread-list  *= require spree/backend/spree_themes
+/* thread-list  *= require spree/backend/spree_promo_users_codes
+ *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
-/* threads  *= require spree/backend/spree_themes
+/* threads  *= require spree/backend/spree_promo_users_codes
+ *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 .admin-thread-header {
     display: flex;
@@ -133,11 +152,15 @@
     overflow-y: scroll;
     overflow-x: hidden;
     height: 60vh;
-    /* margin: 8% 0 0 0;  *= require spree/backend/spree_themes
-*/
+    /* margin: 8% 0 0 0;  *= require spree/backend/spree_promo_users_codes
+     *= require spree/backend/spree_digital
+     *= require spree/backend/spree_product_subscriptions
+    */
 }
 
-/* messages  *= require spree/backend/spree_themes
+/* messages  *= require spree/backend/spree_promo_users_codes
+ *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 
 p.message {
@@ -220,7 +243,9 @@ p.message span text {
 /* .admin-thread-userinput-wrapper {
     border-radius: 5px;
     border: 1px solid grey;
-}  *= require spree/backend/spree_themes
+}  *= require spree/backend/spree_promo_users_codes
+ *= require spree/backend/spree_digital
+ *= require spree/backend/spree_product_subscriptions
 */
 
 .admin-thread-userinput {
@@ -244,6 +269,8 @@ p.message span text {
 .admin-thread-userinput:focus {
     outline-width: 0;
     /* display: grid;
-    grid-template-columns: .8fr .2fr  *= require spree/backend/spree_themes
-*/
+    grid-template-columns: .8fr .2fr  *= require spree/backend/spree_promo_users_codes
+     *= require spree/backend/spree_digital
+     *= require spree/backend/spree_product_subscriptions
+    */
 }

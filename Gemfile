@@ -33,6 +33,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Handle CORs request errors
+gem 'rack-cors', :require => 'rack/cors'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
@@ -42,11 +45,10 @@ gem 'spree', '~> 3.7'
 gem 'spree_auth_devise', '~> 3.5'
 gem 'spree_gateway', '~> 3.4'
 gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
-gem 'vinsol_spree_themes', github: 'vinsol-spree-contrib/spree_themes', branch: 'master'
-gem 'import_products', :git => 'git://github.com/joshmcarthur/spree-import-products.git'
-
-gem 'sprockets-helpers', '~> 1.2.1'
-
+gem 'spree_promo_users_codes', github: 'vinsol-spree-contrib/spree_promo_users_codes', branch: 'master'
+gem 'spree_digital', github: 'spree-contrib/spree_digital'
+gem 'spree_product_assembly', github: 'spree-contrib/spree-product-assembly'
+gem 'spree_product_subscriptions', github: 'vinsol-spree-contrib/spree_product_subscriptions'
 gem 'rest-client'
 
 group :development, :test do
